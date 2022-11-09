@@ -1,0 +1,600 @@
+<!DOCTYPE HTML>
+<html>
+	<body bgcolor=#FFB6C1 text=#8A2BE2>
+	<style>
+   p {
+    text-indent: 30px;
+   }
+  </style>
+	<font face=Arial>
+	<hr width=80%>
+	<h3 align = center><a href=сайт.html>Популярная манга</a></h3>
+	<h2 align = center>Список манги</h2>
+	<details>
+	<summary>График</summary>
+	<br>
+	<form>
+    <fieldset>
+        <legend>
+            <b>Значение по оси OX</b></legend>
+<input type=radio name=education value=first>Аудитория<br> 
+<input type=radio name=education value=second>Издатель<br>
+<input type=radio name=education value=third>Автор(ы)
+    </fieldset>
+    <p></p>
+    <fieldset>
+        <legend><b>Результат</b></legend>
+<input type=checkbox name=subject value=web>Количество томов<br>
+<input type=checkbox name=subject value=db>Примерные продажи<br>
+<input type=checkbox name=subject value=oop>Публикация<br>
+    </fieldset>
+	<br>
+	<input type="button" value="Построить">
+	<br>
+	<br>
+</form>
+	</details>
+	<details>
+	<summary>Фильтр</summary>
+	<br>
+		<label>Название:
+       <input type="text" name="name" id="name">
+		</label><br><br>
+		<label>Автор(ы):
+       <input type="text" name="author" id="author">
+		</label><br><br>
+		<label>Издатель:
+       <input type="text" name="publisher" id="publisher">
+		</label><br><br>
+		<label>Аудитория:
+       <input type="text" name="audith" id="audith">
+		</label><br><br>
+		<input type="button" value="Найти">
+	<br><br>
+	</details>
+	<details>
+	<summary>Сортировка</summary><br>
+	Первый уровень:
+		<select name="audith">
+			<option value="0" selected> Нет </option>
+			<option value="1"> Название </option>
+			<option value="2"> Автор </option>
+			<option value="3"> Аудитория </option>
+		</select><br><br>
+		Второй уровень:
+		<select name="author">
+			<option value="0" selected> Нет </option>
+			<option value="1"> Название </option>
+			<option value="2"> Автор </option>
+			<option value="3"> Аудитория </option>
+			</select><br><br>
+		Третий уровень:
+		<select name="name">
+			<option value="0" selected> Нет </option>
+			<option value="1"> Название </option>
+			<option value="2"> Автор </option>
+			<option value="3"> Аудитория </option>
+		</select>
+		<br><br>
+		<input type="button" value="Найти">
+		
+	</details>
+	
+	</font>
+	<font color=#404040>
+		<hr width=80%>
+		<table align = center width=80% cellspacing=0 border=1 cellpadding=10>
+			<tr bgcolor=#DDA0DD>
+				<th>Манга</th>
+				<th>Автор(ы)</th>
+				<th>Издатель</th>
+				<th>Аудитория</th>
+				<th>Количество<br>томов</th>
+				<th>Публикация</th>
+				<th>Примерные<br>продажи</th>
+			</tr>
+			
+			<tr>
+				<td>One Piece.<br> Большой куш</td>
+				<td>Эйитиро Ода</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>102</td>
+				<td>1997-<br>настоящее<br>время</td>
+				<td>500<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Golgo 13</td>
+				<td>Такао Сайто</td>
+				<td>Shogakukan</td>
+				<td>Сэйнэн</td>
+				<td>201</td>
+				<td>1968–<br>настоящее<br>время</td>
+				<td>300<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Жемчуг дракона</td>
+				<td>Акира Торияма</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>42</td>
+				<td>1984–1995</td>
+				<td>260<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Наруто</td>
+				<td>Масаси Кисимото</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>72</td>
+				<td>1999–2014</td>
+				<td>270<br>миллионов</td>
+			</tr>
+				
+			<tr>
+				<td>Детектив Конан</td>
+				<td>Госё Аояма</td>
+				<td>Shogakukan</td>
+				<td>Сёнэн</td>
+				<td>101</td>
+				<td>1994–<br>настоящее<br>время</td>
+				<td>233<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Black Jack</td>
+				<td>Осаму Тэдзука</td>
+				<td>Akita Shoten</td>
+				<td>Сёнэн</td>
+				<td>25</td>
+				<td>1973–1983</td>
+				<td>176<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Slam Dunk</td>
+				<td>Такэхико Иноуэ</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>31</td>
+				<td>1990–1996</td>
+				<td>157<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Kochira Katsushika-<br>ku Kameari Kōen-mae<br> Hashutsujo</td>
+				<td>Осаму Акимото</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>200</td>
+				<td>1976–2016</td>
+				<td>157<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Demon Slayer:<br>Kimetsu no Yaiba</td>
+				<td>Коёхару Готогэ</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>23</td>
+				<td>2016–2020</td>
+				<td>150<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Pokémon Adventures</td>
+				<td>Хидэнори Кусака,<br>Мато, Сатоси<br>Ямамото</td>
+				<td>Shogakukan</td>
+				<td>Сёнэн</td>
+				<td>52</td>
+				<td>1997-<br>настоящее<br>время</td>
+				<td>150<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Дораэмон</td>
+				<td>Фудзико Фудзио</td>
+				<td>Shogakukan</td>
+				<td>Кодомо</td>
+				<td>45</td>
+				<td>1969–1996</td>
+				<td>140<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Oishinbo</td>
+				<td>Тэцу Кария,<br>Акира Ханасаки</td>
+				<td>Shogakukan</td>
+				<td>Сэйнэн</td>
+				<td>111</td>
+				<td>1983–2014</td>
+				<td>130<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Блич</td>
+				<td>Тайто Кубо</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>74</td>
+				<td>2001–2016</td>
+				<td>120<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>JoJo’s Bizarre<br>Adventure</td>
+				<td>Хирохико Араки</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>131</td>
+				<td>1987–<br>настоящее<br>время</td>
+				<td>120<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Атака на титанов</td>
+				<td>Хадзимэ Исаяма</td>
+				<td>Kodansha</td>
+				<td>Сёнэн</td>
+				<td>32</td>
+				<td>2009–2021</td>
+				<td>110<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Astro Boy</td>
+				<td>Осаму Тэдзука</td>
+				<td>Kobunsha</td>
+				<td>Сёнэн</td>
+				<td>23</td>
+				<td>1952–1968</td>
+				<td>100<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Кулак Полярной<br>звезды</td>
+				<td>Буронсон,<br>Тэцуо Хара</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>27</td>
+				<td>1983–1988</td>
+				<td>100<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>The Kindaichi<br>Case Files</td>
+				<td>Ёдзабуро Канари,<br>Син Кибаяси,<br>Фумия Сато</td>
+				<td>Kodansha</td>
+				<td>Сёнэн</td>
+				<td>86</td>
+				<td>1992–<br>настоящее<br>время</td>
+				<td>100<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Touch</td>
+				<td>Мицуру Адати</td>
+				<td>Shogakukan</td>
+				<td>Сёнэн</td>
+				<td>26</td>
+				<td>1981–1986</td>
+				<td>100<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Hajime no Ippo</td>
+				<td>Джордж Морикава</td>
+				<td>Kodansha</td>
+				<td>Сёнэн</td>
+				<td>127</td>
+				<td>1989–<br>настоящее<br>время</td>
+				<td>96<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Vagabond</td>
+				<td>Такэхико Иноуэ</td>
+				<td>Kodansha</td>
+				<td>Сэйнэн</td>
+				<td>37</td>
+				<td>1998–2015</td>
+				<td>82<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Боец Баки</td>
+				<td>Кэйсукэ Итагаки</td>
+				<td>Akita Shoten</td>
+				<td>Сёнэн</td>
+				<td>158</td>
+				<td>1991–<br>настоящее<br>время</td>
+				<td>80<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>One Piece.<br> Большой куш</td>
+				<td>Эйитиро Ода</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>102</td>
+				<td>1997-<br>настоящее<br>время</td>
+				<td>500<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Captain Tsubasa</td>
+				<td>Ёити Такахаси</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>92</td>
+				<td>1981-<br>настоящее<br>время</td>
+				<td>80<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Sangokushi</td>
+				<td>Мицутэру Ёкояма</td>
+				<td>Ushio Shuppansha</td>
+				<td>Сёнэн</td>
+				<td>60</td>
+				<td>1971–1986</td>
+				<td>80<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Hunter × Hunter</td>
+				<td>Ёсихиро Тогаси</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>36</td>
+				<td>1998–<br>настоящее<br>время</td>
+				<td>79 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Kinnikuman</td>
+				<td>Yudetamago</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>65</td>
+				<td>1979-<br>настоящее<br>время</td>
+				<td>75 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Fairy Tail</td>
+				<td>Хиро Масима</td>
+				<td>Kodansha</td>
+				<td>Сёнэн</td>
+				<td>63</td>
+				<td>2006–2017</td>
+				<td>72 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Rurouni Kenshin</td>
+				<td>Нобухиро Вацуки</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>28</td>
+				<td>1994–1999</td>
+				<td>72 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Стальной алхимик</td>
+				<td>Хирому Аракава</td>
+				<td>Enix, Square<br>Enix</td>
+				<td>Сёнэн</td>
+				<td>27</td>
+				<td>2001–2010</td>
+				<td>70.3<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Kingdom</td>
+				<td>Ясухиса Хара</td>
+				<td>Shueisha</td>
+				<td>Сэйнэн</td>
+				<td>58</td>
+				<td>2006-<br>настоящее<br>время</td>
+				<td>70 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Hana Yori<br>Dango</td>
+				<td>Ёко Камио</td>
+				<td>Shueisha</td>
+				<td>Сёдзё</td>
+				<td>37</td>
+				<td>1992–2003</td>
+				<td>61 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Rokudenashi Blues</td>
+				<td>Масанори Морита</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>42</td>
+				<td>1988–1997</td>
+				<td>60 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Aoki Densetsu<br>Shoot!</td>
+				<td>Цукаса Осима</td>
+				<td>Kodansha</td>
+				<td>Сёнэн</td>
+				<td>33</td>
+				<td>1990–2003</td>
+				<td>60 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>The Prince of Tennis</td>
+				<td>Такэси Кономи</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>33</td>
+				<td>1999–2008</td>
+				<td>60 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Gintama</td>
+				<td>Хидэаки Сорати</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>77</td>
+				<td>2003–2019</td>
+				<td>55,5<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Bad Boys</td>
+				<td>Хироси Танака</td>
+				<td>Shōnen Gahōsha</td>
+				<td>Сёнэн</td>
+				<td>22</td>
+				<td>1988–1996</td>
+				<td>55<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>H2</td>
+				<td>Мицуру Адати</td>
+				<td>Shogakukan</td>
+				<td>Сёнэн</td>
+				<td>34</td>
+				<td>1992–1999</td>
+				<td>55<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Major</td>
+				<td>Такуя Мицуда</td>
+				<td>Shogakukan</td>
+				<td>Сёнэн</td>
+				<td>78</td>
+				<td>1994–2010</td>
+				<td>53<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Minami no Teiō</td>
+				<td>Дай Тэнноджи,<br>Рикия Го</td>
+				<td>Nihon Bungeisha</td>
+				<td>Сёнэн</td>
+				<td>152</td>
+				<td>1992-<br>настоящее<br>время</td>
+				<td>53 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Ранма ½</td>
+				<td>Румико Такахаси</td>
+				<td>Shogakukan</td>
+				<td>Сёнэн</td>
+				<td>38</td>
+				<td>1987–1996</td>
+				<td>53<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Магическая битва</td>
+				<td>Гэгэ Акутами</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>16</td>
+				<td>2018-<br>настоящее<br>время</td>
+				<td>50 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Моя геройская<br>академия</td>
+				<td>Кохэй Хорикоси</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>30</td>
+				<td>2014-<br>настоящее<br>время</td>
+				<td>50 <br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>City Hunter</td>
+				<td>Цукаса Ходзё</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>35</td>
+				<td>1985–1991</td>
+				<td>50<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Cobra</td>
+				<td>Буити Тэрасава</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>18</td>
+				<td>1978–1984</td>
+				<td>50<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Devilman</td>
+				<td>Го Нагай</td>
+				<td>Kodansha</td>
+				<td>Сёнэн</td>
+				<td>5</td>
+				<td>1972–1973</td>
+				<td>50<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Dragon Quest: Dai<br>no Daibōken</td>
+				<td>Рику Сандзё,<br>Кодзи Инада</td>
+				<td>Shueisha</td>
+				<td>Сёнэн</td>
+				<td>37</td>
+				<td>1989–1996</td>
+				<td>50<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Glass Mask</td>
+				<td>Судзуэ Миути</td>
+				<td>Hakusensha</td>
+				<td>Сёдзё</td>
+				<td>49</td>
+				<td>1976-<br>настоящее<br>время</td>
+				<td>50<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Initial D</td>
+				<td>Сюити Сигэно</td>
+				<td>Kodansha</td>
+				<td>Сэйнэн</td>
+				<td>48</td>
+				<td>1995–2013</td>
+				<td>50<br>миллионов</td>
+			</tr>
+			
+			<tr>
+				<td>Inuyasha</td>
+				<td>Румико Такахаси</td>
+				<td>Shogakukan</td>
+				<td>Сэйнэн</td>
+				<td>56</td>
+				<td>1996–2008</td>
+				<td>50<br>миллионов</td>
+			</tr>
+			
+		</table>
+		</font>
+	</body>
+</html>
